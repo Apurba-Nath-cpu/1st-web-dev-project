@@ -1,0 +1,63 @@
+.intro{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    font-family: 'Chango',cursive; 
+    text-align:center;
+    width: 80.5vw;  
+    background-image: url(https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+    background-position: top;
+    padding: 1em 10rem 10rem;
+    border: 2px solid rgb(216, 212, 209);
+    border-width:0.1em;
+    border-radius: 4em;
+
+}
+.form{
+    font-size: 1em;
+    background-image: url(https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+ 
+}
+
+.pinfo{
+    background-color: rgba(162, 221, 213, 0.575);
+    border: 2px solid rgba(166, 219, 210, 0.582);
+    border-width: 0.1em;
+    border-radius: 4em;
+    font-weight: 700;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="name"],
+input[type="date"]
+{
+    width: 82.3%;
+    padding: 1em;
+    font-size: 0.9em;
+    margin-left: 5.4em;
+    border: 2px solid rgba(255, 255, 255, 0.562);
+    border-width: 0.1em;
+    border-radius: 1.6em;
+}
+.submit{
+    height: 3em; 
+    width: 80%;
+    padding:0.6em;
+    margin-left: 5.5em;
+    margin-right: 3em;
+    background-color: chartreuse;
+    border: 2px solid rgba(0, 255, 34, 0.562);
+    border-radius: 3em;
+}
+.submit:hover{
+    transform: scale(1.1)
+    translateY(-0.2em);
+    background-color: cornflowerblue;
+}
